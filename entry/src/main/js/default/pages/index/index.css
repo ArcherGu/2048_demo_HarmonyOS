@@ -1,0 +1,47 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-block {
+    font-size: 20px;
+}
+
+/*.game-block {*/
+/*    width: 500px;*/
+/*}*/
+
+.ctrl-block {
+    flex-direction: row;
+    align-content: center;
+    margin-left: 300px;
+}
+
+/*.color-column {*/
+
+/*}*/
+
+.dir-btn {
+    height: 30px;
+    width: 30px;
+    background-color: #56abe4;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.dir-btn:active {
+    background-color: #1C7EE4;
+}
+
+#myCanvas{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #bbada0;
+}

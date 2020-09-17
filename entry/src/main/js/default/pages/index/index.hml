@@ -1,0 +1,12 @@
+<div class="container">
+    <text class="score-block">
+        Score: {{score}}
+    </text>
+    <canvas id="myCanvas"></canvas>
+    <div class="ctrl-block">
+        <text class="dir-btn" focusable="true" @click="moveUp">↑</text>
+        <text class="dir-btn" focusable="true" @click="moveDown">↓</text>
+        <text class="dir-btn" focusable="true" @click="moveLeft">←</text>
+        <text class="dir-btn" focusable="true" @click="moveRight">→</text>
+    </div>
+</div>
